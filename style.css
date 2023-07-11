@@ -1,3 +1,42 @@
-h1{
-    color: red;
+/* shared styles */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    padding: 20px 43px;
+    color: white;
+}
+
+
+/* first section styles */
+.first-container {
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 50px;
+}
+
+.photo {
+    width: 400px;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.first-container-title {
+    color: #272727;
+    font-size: 60px;
+    margin-bottom: 32px;
+}
+
+.first-container-desc {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    margin-bottom: 32px;
 }
