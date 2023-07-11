@@ -161,6 +161,76 @@
     display: flex;
     margin: 0 140px;
 }
-.flower-photo{
+
+.flower-photo {
     margin-right: 20px;
+}
+
+/* fifth section styles */
+.quote-container {
+    display: flex;
+    margin: 0 400px
+}
+
+.quote {
+    border-radius: 5px;
+    background: #e55473d6;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    width: 150px;
+    height: 220px;
+    border: 5px solid white;
+    padding: 10PX;
+    margin: 150px 20px 0;
+    text-align: center;
+}
+
+/* sixth section styles */
+
+
+.sixth-container {
+    background-image: url('./Flower Asset/Rectangle\ 9.png');
+    max-width: 100%;
+    height: 390px;
+    margin: 100px 50px 0;
+    align-items: center;
+
+}
+
+.sixth-container-info {
+    text-align: center;
+}
+
+.email-container {
+    text-align: center;
+}
+
+.sixth-container-title {
+    color: #272727;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.sixth-container-desc {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    margin-bottom: 48px;
+}
+
+/* footer section */
+.footer-section {
+    margin-top: 100px;
+    background: #111010;
+    color: white;
+    text-align: center;
+}
+
+.footer-title {
+    margin-bottom: 24px;
+    font-size: 48px;
+
+}
+
+.footer-desc {
+    font-size: 18px; 
+    margin-bottom: 30px;
 }
